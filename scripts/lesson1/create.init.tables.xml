@@ -68,4 +68,6 @@
         <addForeignKeyConstraint baseTableName="PRODUCT_CATEGORY" baseColumnNames="CATEGORY_ID" constraintName="FK_PRODUCT_CATEGORY_CATEGORY"
                                  referencedTableName="CATEGORY" referencedColumnNames="ID"/>
     </changeSet>
+
+
 </databaseChangeLog>
