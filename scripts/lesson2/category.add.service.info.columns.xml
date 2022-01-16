@@ -12,7 +12,7 @@
                         category_LAST_MODIFIED_BY, category_LAST_MODIFIED_DATE">
         <tagDatabase tag="before_category_add_service_info_columns"/>
     </changeSet>
-    <changeSet id="category_add_service_info_columns" author="nagoryan.nagoryan" context="postgresql"
+    <changeSet id="category_add_service_info_columns" author="nagoryan.dmitry" context="postgresql"
                labels="category_VERSION, category_CREATED_BY, category_CREATED_DATE,
                         category_LAST_MODIFIED_BY, category_LAST_MODIFIED_DATE">
         <addColumn tableName="CATEGORY">
